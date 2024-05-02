@@ -1,3 +1,43 @@
+pre[class*="shiki"] {
+    position: relative;
+    margin: 5px 0;
+    padding: 1.75rem 0 1.75rem 1rem;
+}
+
+.markup-docs > pre > .button-copy-code {
+    @apply rounded;
+    @apply bg-gray-300;
+    @apply py-2 px-2;
+    position: absolute;
+    top: 85px;
+    right: 15px;
+}
+
+@screen sm {
+    .markup-docs > pre > .button-copy-code {
+        top: 85px;
+        right: 10px;
+    }
+}
+
+.markup-docs > pre > .button-copy-code:hover {
+    @apply border-2 border-gray-600;
+    @apply bg-gray-200;
+}
+
+.markup-docs > pre > .button-copy-code:focus {
+    @apply bg-gray-300;
+}
+
+.copy-docs-icon {
+    fill: #0a001f;
+}
+
+.docs-copied-icon {
+    color: #148a25 !important;
+    fill: #148a25 !important;
+}
+
 # Fatal Road Accidents (FRA) Dashboard
 
 ## Description
