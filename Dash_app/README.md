@@ -1,5 +1,3 @@
-# &lt;clipboard-copy&gt; element
-
 # Fatal Road Accidents (FRA) Dashboard
 
 ## Description
@@ -21,9 +19,9 @@ pip install pandas dash plotly numpy
 ```
 
 4. Run the application by executing the following command:
-
+```
 Dash_App_FRA app.py
-
+```
 5. Open a web browser and navigate to http://127.0.0.1:8050/ to view the dashboard.
 
 ## Usage
