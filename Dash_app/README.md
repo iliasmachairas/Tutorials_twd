@@ -2,6 +2,8 @@
 
 ## Description
 
+![dash_LinkedIn-ezgif com-video-to-gif-converter](https://github.com/iliasmachairas/Tutorials_twd/assets/47300069/19cf7061-cdf6-4a8a-8a9c-a31fbb1c4d0b)
+
 This project aims to visualize fatal road accidents (FRA) data in Athens from 2011 to 2015 using Dash, a Python framework for building analytical web applications. The dashboard allows users to explore FRA data based on vehicle type and year, presenting visualizations such as bar charts, pie charts, and a map.
 
 ## Installation
