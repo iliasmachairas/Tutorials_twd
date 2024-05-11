@@ -1,0 +1,10 @@
+usgs:
+    priority:
+    api:
+        extract:
+        outputs_prefix: F:\Tutorials\eodag\outputs_eodag
+        dl_url_params:
+        product_location_scheme:
+        credentials:
+            username: user1
+            password: abc123
