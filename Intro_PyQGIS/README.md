@@ -2,7 +2,7 @@
 
 ## Description
 
-![dash_LinkedIn-ezgif com-video-to-gif-converter](https://github.com/iliasmachairas/Tutorials_twd/assets/47300069/19cf7061-cdf6-4a8a-8a9c-a31fbb1c4d0b)
+![video_PyQGIS-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b377f676-973e-402e-b81b-31d9df91af1a)
 
 This project demonstrates how to use Python scripts within QGIS to automate the process of creating professional map layouts. It includes steps for adding layers, styling them, and exporting the final map layouts to both image and PDF formats.
 ## Features
