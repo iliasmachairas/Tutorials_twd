@@ -20,11 +20,9 @@ This project demonstrates how to use Python scripts within QGIS to automate the 
 
 ## Usage
 
-- Update Paths in the Script
-Ensure all directory paths in the script match your local file system.
+- Update Paths in the Script. Ensure all directory paths in the script match your local file system.
 
-- Run the Script
-Open QGIS and run the script in the QGIS Python console or as a standalone script using the QGIS Python API.
+- Run the Script. Open QGIS and run the script in the QGIS Python console or as a standalone script using the QGIS Python API.
 
 ## Contributing
 
