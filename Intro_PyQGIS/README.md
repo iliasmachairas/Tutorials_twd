@@ -11,7 +11,7 @@ This project demonstrates how to use Python scripts within QGIS to automate the 
 - **Layer Management**: Add and style multiple layers, including vector and raster layers.
 - **Layout Customization**: Create and customize map layouts with items such as maps, legends, scale bars, titles, and images.
 - **Export Options**: Export layouts to both PNG images and PDF documents
-- **Coordinate System Support:**: Set and handle different coordinate reference systems.
+- **Coordinate System Support**: Set and handle different coordinate reference systems.
   
 ## Requirements
 - QGIS (3.x or later)
