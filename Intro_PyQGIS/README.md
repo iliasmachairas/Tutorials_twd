@@ -1,4 +1,4 @@
-# QGIS Automating QGIS maps
+# Automating QGIS maps
 
 ## Description
 
