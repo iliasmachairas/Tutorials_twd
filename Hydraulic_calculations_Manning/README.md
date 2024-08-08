@@ -20,7 +20,7 @@ Hydraulic calculations are essential for designing efficient water conveyance sy
 
 ## 🛠️ Installation
 
-To run this project locally, follow these steps:
+To run this project locally:
 
 1. **Clone the repository**:
    ```bash
