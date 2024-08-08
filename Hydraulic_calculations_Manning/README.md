@@ -20,9 +20,23 @@ Hydraulic calculations are essential for designing efficient water conveyance sy
 
 ## 🛠️ Installation
 
-To run this project locally:
+To run this project locally, follow the following steps:
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/iliasmachairas/Tutorials_twd.git
+
+2. **Navigate to project directory**:
+   ```bash
+   cd Tutorials_twd/Tutorials_twd/Hydraulic_calculations_Manning
+
+3.  Install Required Packages
+   ```bash
+   pip install streamlit
+
+4. Run the Streamlit Application
+   ```bash
+   streamlit run 1_Hydraulics.py
+
+
 
