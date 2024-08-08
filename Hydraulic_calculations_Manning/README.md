@@ -30,10 +30,12 @@ To run this project locally, follow the following steps:
    ```bash
    cd Tutorials_twd/Tutorials_twd/Hydraulic_calculations_Manning
 
-3.  **Install Required Packages:
-   ```bash
-   install streamlit
-
-4. **Install Required Packages:
+3. **Install Required Packages**:
    ```bash
    pip install streamlit
+
+4. **Run the application**:
+   ```bash
+   streamlit run 1_Hydraulics.py
+
+Enjoy!!
