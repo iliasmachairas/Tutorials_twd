@@ -3,7 +3,7 @@
 Welcome to the **Streamlit Hydraulic Calculator**! This web-based tool automates hydraulic calculations for various open channel cross-sections—rectangular, circular, and trapezoidal. Whether you're an engineer, researcher, or student, this app will help you perform complex hydraulic calculations with ease.
 
 
-![Uploading video_manning.gif…]()
+![video_manning](https://github.com/user-attachments/assets/3f0aad2b-a8a0-48b3-9482-1af256c4c2cb)
 
 
 ## 🌟 Features
