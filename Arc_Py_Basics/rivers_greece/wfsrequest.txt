@@ -1,0 +1,1 @@
+http://geodata.gov.gr:80/geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=geodata.gov.gr:6ac1b167-df9c-47b5-8cc0-ffdad7a13042&outputFormat=SHAPE-ZIP&srsName=epsg:2100
