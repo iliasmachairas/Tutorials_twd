@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polygon Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="map" style="height: 600px;"></div>
+
+    <script>
+        // Initialize Leaflet map
+        var map = L.map('map').setView([37.57777, 22.804], 16);  // Adjusted the initial view
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Fetch polygons from FastAPI
+        fetch('http://localhost:8000/polygons')
+            .then(response => response.json())  // Parse the response as JSON
+            .then(data => {
+                // The API returns a string, so we need to parse it into a valid GeoJSON object
+                // console.log("data")
+                // console.log(data)
+                var geojsonData = JSON.parse(data); // Parse the string into a valid GeoJSON object
+                
+                // Add polygons to map
+                L.geoJSON(geojsonData, {
+                    onEachFeature: function (feature, layer) {
+                        layer.bindPopup(`ID: ${feature.id}<br>Crop: ${feature.properties.crop}`); // Display ID and crop
+                    }
+                }).addTo(map);
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>

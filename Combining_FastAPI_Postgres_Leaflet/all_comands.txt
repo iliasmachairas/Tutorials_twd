@@ -1,0 +1,10 @@
+CREATE EXTENSION postgis;
+
+CREATE TABLE draft_ilias.parcels (
+    id SERIAL PRIMARY KEY,
+    geom GEOMETRY(Polygon, 4326),
+    parcel_id VARCHAR(255),
+    crop VARCHAR(255)
+);
+
+ogr2ogr -f "PostgreSQL" PG:"dbname=postgres user=postgres password=postgres host=localhost" F:\Tutorials\map\polygons\polygons_4326.shp  -nln draft_ilias.parcels -nlt POLYGON  -lco GEOMETRY_NAME=geom -lco FID=id -s_srs EPSG:4326 -t_srs EPSG:4326
