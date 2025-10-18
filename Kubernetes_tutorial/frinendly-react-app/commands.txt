@@ -1,0 +1,7 @@
+docker build -t react-frontend .
+
+docker run -d -p 3000:80 react-frontend
+
+host_ip : pod_ip (based on dockerfile)
+
+3001:80
